@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Nav from "./nav";
 
-const header = () => {
+const Header = () => {
   return (
-    <div>header</div>
-  )
-}
+    <header>
+      header
+      <Nav />
+    </header>
+  );
+};
 
-export default header
+export default Header;
